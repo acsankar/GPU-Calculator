@@ -20,4 +20,14 @@ P = P * 1e9  # Convert billions to actual number
 M = ((P * 4) / (32 / Q)) * 1.2
 
 # Display the result
-st.header(f'GPU memory required : {M / 1e9:.2f} GB')
+#st.header(f'GPU memory required : {M / 1e9:.2f} GB')
+st.markdown(f"""
+    <style>
+        .result {{
+            font-size: 24px;
+            font-weight: bold;
+            color: #FF4B4B;
+        }}
+    </style>
+    <div class="result">GPU memory required: {M / 1e9:.2f} GB</div>
+    """, unsafe_allow_html=True)
