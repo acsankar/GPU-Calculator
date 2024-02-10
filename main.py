@@ -25,7 +25,7 @@ st.markdown(f"""
     </style>
     <div class="result">GPU memory required: {M / 1e9:.2f} GB</div>
     """, unsafe_allow_html=True)
-
+st.divider()
 # Link to display Excel
 if st.button('Show GPU Costs Details'):
     st.caption('*** Do not decide a GPU based on RAM - Check the GPU product sheet and evaluate other important features for decision') 
