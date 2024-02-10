@@ -1,4 +1,4 @@
-Model,Launch,Cuda Cores,Size (GB),Price (USD)
+GPU Model,Launch Year ,# Cuda Cores,Size (GB),Price (USD)
 Tesla T4,2018,2560,16,"US$ 750,00"
 Tesla A2,2021,1280,16,"US$ 918,99"
 Tesla V100 (32 GB),2017,5120,32,"US$ 2.699,00"
