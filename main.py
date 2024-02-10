@@ -29,7 +29,7 @@ st.markdown(f"""
 # Link to display Excel
 if st.button('Show GPU Costs Details'):
     # Reading the Excel file
-    df = pd.read_excel('/Users/sankar/Desktop/VScode/AICAL/gpuc.xlsx')
+    df = pd.read_excel('gpuc.txt')
     with st.expander("GPU Costs Details - 12/31/2023", expanded=True):
         st.write(df.to_html(index=False), unsafe_allow_html=True)
         #st.dataframe(df.style.hide_index())
