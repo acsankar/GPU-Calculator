@@ -28,6 +28,7 @@ st.markdown(f"""
 
 # Link to display Excel
 if st.button('Show GPU Costs Details'):
+    st.caption('*** Do not decide a GPU based on RAM - Check the GPU product sheet and evaluate other important features for decision') 
     # Reading the Excel file
     df = pd.read_csv('gpuc.txt')
     with st.expander("GPU Costs Details - 12/31/2023", expanded=True):
